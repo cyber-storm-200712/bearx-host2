@@ -1563,6 +1563,52 @@ button:disabled {
   height: 100px !important;
 }
 
+#value_rootx {
+  background: transparent;
+  border: 1px solid #663399;
+  height: 3rem;
+  width: 60%;
+  min-width: 0px;
+  outline: 2px solid transparent;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.burn-rootx-mainboard {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+}
+
+.burn-rootx-yield-description {
+  flex: 0.3;
+  width: 100%;
+  background-color: #fd7e14;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.burn-rootx-button {
+  border: none;
+  background-color: #663399;
+  font-size: 20px;
+  color: white;
+  font-family: "Lo-Res";
+  padding: 0.7rem 1.5rem;
+  margin-top: 1rem;
+}
+
+.max-rootx-button {
+  border: none;
+  background-color: #663399;
+  font-size: 20px;
+  color: white;
+  font-family: "Lo-Res";
+  padding: 0.7rem 0.5rem;
+  margin-left: 1rem;
+  margin-right: 0.1rem;
+}
+
 * {
   font-family: "Lo-Res";
 }
